@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version       = '0.1.1'
   s.summary       = 'DateKit - operate on NSDate and its components easily in Swift'
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
-  s.platform      = :ios , '7.0'
+  s.platforms     = { :ios => '7.0', :osx => '10.9' }
   s.homepage      = 'https://github.com/SnowdogApps/DateKit.git'
   s.requires_arc  = 'true'
   s.author        = {
